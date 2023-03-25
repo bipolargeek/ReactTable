@@ -1,0 +1,79 @@
+﻿/** {
+    box-sizing: border-box;
+}*/
+
+/*html {
+    font-family: sans-serif;
+}*/
+
+table {
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+th,
+td {
+    /*border: 1px solid black;*/
+    /*padding: 0.5rem;*/
+}
+
+    th span {
+        margin-right: 1rem;
+    }
+
+/*input {
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    background: #f0f0f0;
+}*/
+
+.pagination {
+   /* margin-top: 0.25rem;
+    display: flex;*/
+    /* justify-content: space-between; */
+    /*border: 1px solid black;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+.no-text-select {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.header-column:hover {
+    cursor: pointer;
+}
+
+.form-check-input {
+     float: none !important; 
+    margin-top: 0px !important;
+}
+
+.blurry-checkbox {
+    filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+    border-color: red;
+}
+
+.string-align {
+    text-align: left;
+}
+
+.number-align {
+    text-align: right;
+}
+
+.boolean-align {
+    text-align: center;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+.date-align {
+    text-align: right;
+}
