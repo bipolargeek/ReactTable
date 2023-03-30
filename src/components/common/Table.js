@@ -114,8 +114,8 @@ export const Table = ({ columns, rows }) => {
                                             className="form-check-input"
                                             placeholder={`Search ${column.headertext}`}
                                             checked={(filters[column.fieldname] || '')}
-                                            onChange={(event) => {
-                                                handleSearch((event.target.indeterminate ? '' : event.target.checked.toString()), column.fieldname);
+                                            onChange={(value) => {
+                                                handleSearch(value.toString(), column.fieldname);
                                             }}
                                         />
                                     </th>
